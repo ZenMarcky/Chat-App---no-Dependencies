@@ -1,0 +1,29 @@
+.SomeUser{
+    width: 95%;
+    background-color: rgb(177, 193, 196,0.2);
+    min-height: 4vmax;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 0.5vmax;
+    cursor: pointer;
+    transition: 1s;
+    position: relative;
+}
+.SomeUser:hover{
+
+    background-color: rgb(177, 193, 196,1);
+ 
+}
+.UserName{
+    font-size: 20px;
+}
+
+.SomeUser img{
+    width: 50px;
+   margin: 0vmax 1vmax;
+}
+.deleteConBtn{
+    position: absolute;
+    right: 0.6vmax;
+}

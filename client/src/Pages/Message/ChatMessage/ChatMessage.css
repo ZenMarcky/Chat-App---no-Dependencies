@@ -1,0 +1,49 @@
+.chatMessage{
+    width: 95%;
+  
+    height: auto;
+ 
+    margin-bottom: 1vmax;
+    display: flex;
+    flex-direction: column;
+
+}
+.messageBox{
+
+    display: flex;
+    align-items: center;
+ justify-content: flex-end;
+ align-self: flex-end;
+min-height: 3vmax;
+font-size: 18px;
+    width: 40%;
+    background-color:rgb(0, 153, 180);
+}
+.otherMessageBox{
+    display: flex;
+    align-items: center;
+min-height: 3vmax;
+font-size: 18px;
+    width: 40%;
+    background-color:rgb(243, 241, 241);
+}
+.messageBox p{
+    margin: 0vmax 1vmax;
+}
+.otherMessageBox p{
+    margin: 0vmax 1vmax;
+}
+.sendTime{
+    align-self: flex-end;
+    letter-spacing: 1px;
+    color: gold;
+}
+.myName{
+   float: right;
+    letter-spacing: 1px;
+}
+.OthersendTime{
+ 
+    letter-spacing: 1px;
+    color: gold;
+}

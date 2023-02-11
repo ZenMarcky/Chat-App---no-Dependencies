@@ -1,0 +1,48 @@
+.registerPages{
+    min-height: 92vh;
+    width: 100%;
+    background-color: rgb(3, 136, 92);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.registerForm{
+    min-height: 70vh;
+    height: auto;
+    width: 30vmax;
+    background-color: rgb(223, 223, 223);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+     border-radius: 5px;
+}
+.inputForm{
+    width: 80%;
+    height: auto;
+   
+     display: flex;
+     flex-direction: column;
+}
+.registerText{
+    font-size: 30px;
+}
+.inputForm input[type="email"],input[type="password"],input[type="text"]{
+
+     height: 5vh;
+     border: none;
+      border-bottom: 1px solid black;
+       background-color: inherit;
+}
+.inputForm input:focus{
+    outline: none;
+    background-color: inherit;
+      }
+.formSubmitBtn{
+    width: 60%;
+    height: 5vh;
+     border-radius: 20px;
+cursor: pointer;
+ border: none;
+background-color: aquamarine;
+}

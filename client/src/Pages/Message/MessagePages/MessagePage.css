@@ -1,0 +1,92 @@
+.MessagePage{
+    background-color: rgb(136, 136, 212);
+    min-height: 92vh;
+    height: auto;
+    display: flex;
+
+}
+.UserChat{
+    width: 27vmax;
+    min-height: 92vh;
+    height: auto;
+    background-color: rgb(243, 241, 241);
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.AllUserChat{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+align-items: center;
+}
+.chatSearch{
+    margin: 1.8vmax 0vmax 1.8vmax 0vmax;
+ 
+    width: 100%;
+display: flex;
+justify-content: center;
+}
+.chatSearch input[type="Search"]{
+width: 90%;
+ border: none;
+  border-bottom: 1px solid black;
+  background-color: rgb(243, 241, 241);
+}
+.chatSearch input:focus{
+  outline: none;
+    
+    }
+
+
+
+
+.Chat{
+    width: 75vmax;
+    min-height: 92vh;
+    height: auto;
+    background-color: rgb(3, 136, 92);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+.chatContainer{
+    width: 100%;
+    height: 82vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+     overflow-y:scroll;
+}
+.chats{
+    width: 95%;
+    height: auto;
+}
+.inputContainer{
+    width: 100%;
+height: 12%;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+.messageInput{
+    width: 88%;
+    height: 60%;
+    font-size: 14px;
+}
+.messageSubmit{
+    width: 8%;
+    height: 60%;
+}
+.messageInput:focus{
+    outline: none;
+    background-color: inherit;
+      }
+.converContainer{
+    width: 100%;
+  
+}

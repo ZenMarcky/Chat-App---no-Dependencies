@@ -1,0 +1,12 @@
+.HomePages{
+    height: 92vh;
+    width: 100%;
+    display: flex;
+align-items: center;
+    justify-content: center;
+    background-color: rgb(3, 136, 92);
+}
+.HomePages h1{
+font-size: 6vmax;
+color: aquamarine;
+}
